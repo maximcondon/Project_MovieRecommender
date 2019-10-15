@@ -1,0 +1,27 @@
+
+Using a Python Project Structure
+
+1. Create the project from a template with Cookiecutter
+
+2. Copy your own Python code into the project_slug/ folder
+
+3. Install requirements:
+
+        pip install -r requirements.txt
+        pip install -r requirements_dev.txt
+
+4. Makes your package importable:
+
+        pip install -e .
+
+5. Add / run tests:
+
+        make test
+
+6. Add everything to git
+
+7. Build the Python package
+
+        make dist
+
+        allows: pip install movie_recommender
